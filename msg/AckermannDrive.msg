@@ -10,7 +10,7 @@
 #
 # Zero steering angle velocity means change the steering angle as
 # quickly as possible. Positive velocity indicates a desired absolute
-# rate of change either left of right. The controller tries not to
+# rate of change either left or right. The controller tries not to
 # exceed this limit in either direction, but sometimes it might.
 #
 float32 steering_angle          # desired virtual angle (radians)
