@@ -1,0 +1,14 @@
+<package>
+  <description brief="ackermann_msgs">
+
+     Ackermann steering messages.
+
+  </description>
+  <author>Jack O'Quin</author>
+  <license>BSD</license>
+  <review status="API reviewed" notes="2012-01-29"/>
+  <url>http://ros.org/wiki/ackermann_msgs</url>
+
+</package>
+
+
