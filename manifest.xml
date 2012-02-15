@@ -9,6 +9,6 @@
   <review status="API reviewed" notes="2012-01-29"/>
   <url>http://ros.org/wiki/ackermann_msgs</url>
 
+  <depend package="std_msgs"/>
+
 </package>
-
-
