@@ -1,0 +1,12 @@
+<stack>
+  <description brief="ackermann_msgs">
+    ROS messages for robots using Ackermann steering.
+  </description>
+  <author>Maintained by Jack O'Quin</author>
+  <license>BSD</license>  
+  <review status="API cleared" notes="2012-01-29"/>
+  <url>http://ros.org/wiki/ackermann_msgs</url>
+
+  <depend stack="ros_comm" />
+
+</stack>
