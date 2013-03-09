@@ -1,10 +1,19 @@
-cmake_minimum_required(VERSION 2.4.6)
-include($ENV{ROS_ROOT}/core/rosbuild/rosbuild.cmake)
+cmake_minimum_required(VERSION 2.8.3)
+project(ackermann_msgs)
 
-rosbuild_init()
-rosbuild_make_distribution(0.4.0)
+find_package(catkin REQUIRED COMPONENTS message_generation std_msgs)
+# We want boost/format.hpp, which isn't in its own component.
+find_package(Boost REQUIRED)
 
-#uncomment if you have defined messages
-rosbuild_genmsg()
-#uncomment if you have defined services
-#rosbuild_gensrv()
+include_directories(include)
+
+add_message_files(
+  DIRECTORY msg
+  FILES AckermannDrive.msg AckermannDriveStamped.msg)
+
+generate_messages(DEPENDENCIES std_msgs)
+
+catkin_package(
+  INCLUDE_DIRS include
+  CATKIN_DEPENDS message_runtime std_msgs
+  DEPENDS Boost)
