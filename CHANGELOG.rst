@@ -1,8 +1,9 @@
 
-0.9.0 (forthcoming)
+0.9.0 (2013-03-17)
 -----
 
- * convert to catkin for Hydro
+ * convert to catkin
+ * release to Hydro
 
 0.4.0 (2012-03-01)
 ------------------
