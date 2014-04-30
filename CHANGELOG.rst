@@ -1,3 +1,11 @@
+Change history
+==============
+
+0.9.1 (2014-04-30)
+------------------
+* Export architecture_independent flag in package.xml (`#3
+  <https://github.com/jack-oquin/ackermann_msgs/issues/3>`_), thanks
+  to Scott K Logan
 
 0.9.0 (2013-03-17)
 ------------------
