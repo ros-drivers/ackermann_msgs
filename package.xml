@@ -4,11 +4,14 @@
   <description>
     ROS messages for robots using Ackermann steering.
   </description>
+  <maintainer email="jim.rothrock@protonmail.ch">Jim Rothrock</maintainer>
   <maintainer email="jack.oquin@gmail.com">Jack O'Quin</maintainer>
   <author>Jack O'Quin</author>
   <license>BSD</license>
 
-  <url>http://ros.org/wiki/ackermann_msgs</url>
+  <url type="website">http://ros.org/wiki/ackermann_msgs</url>
+  <url type="repository">https://github.com/ros-drivers/ackermann_msgs.git</url>
+  <url type="bugtracker">https://github.com/ros-drivers/ackermann_msgs/issues</url>
 
   <buildtool_depend>catkin</buildtool_depend>
 
