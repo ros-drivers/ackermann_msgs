@@ -1,6 +1,10 @@
 Change history
 ==============
 
+1.0.0 (2015-08-28)
+------------------
+* Changed the version to 1.0.0.
+
 0.9.1 (2014-04-30)
 ------------------
 * Export architecture_independent flag in package.xml (`#3
