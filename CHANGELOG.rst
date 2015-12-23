@@ -1,6 +1,10 @@
 Change history
 ==============
 
+1.0.1 (2015-12-22)
+------------------
+* Removed Jim Rothrock from the maintainer list. Changed the version to 1.0.1.
+
 1.0.0 (2015-08-28)
 ------------------
 * Changed the version to 1.0.0.
