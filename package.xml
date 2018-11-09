@@ -1,4 +1,6 @@
-<package>
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
   <name>ackermann_msgs</name>
   <version>1.0.1</version>
   <description>
@@ -12,15 +14,21 @@
   <url type="repository">https://github.com/ros-drivers/ackermann_msgs.git</url>
   <url type="bugtracker">https://github.com/ros-drivers/ackermann_msgs/issues</url>
 
-  <buildtool_depend>catkin</buildtool_depend>
-
-  <build_depend>message_generation</build_depend>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>rosidl_default_generators</buildtool_depend>
+  
+  <build_depend>builtin_interfaces</build_depend>
   <build_depend>std_msgs</build_depend>
-
-  <run_depend>message_runtime</run_depend>
-  <run_depend>std_msgs</run_depend>
+  
+  <exec_depend>builtin_interfaces</exec_depend>
+  <exec_depend>rosidl_default_runtime</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  
+  <test_depend>ament_lint_common</test_depend>
+  
+  <member_of_group>rosidl_interface_packages</member_of_group>
   
   <export>
-    <architecture_independent/>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
