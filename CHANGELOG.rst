@@ -1,8 +1,8 @@
 Change history
 ==============
 
-Forthcoming
------------
+2.0.2 (2019-08-28)
+------------------
 * missing std msg dependency
 * Contributors: Rousseau Vincent
 
