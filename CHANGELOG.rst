@@ -1,6 +1,11 @@
 Change history
 ==============
 
+Forthcoming
+-----------
+* Use 3.0.2 min cmake version
+* Contributors: Vincent Rousseau
+
 1.0.1 (2015-12-22)
 ------------------
 * Removed Jim Rothrock from the maintainer list. Changed the version to 1.0.1.
