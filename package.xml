@@ -1,6 +1,6 @@
 <package>
   <name>ackermann_msgs</name>
-  <version>1.0.1</version>
+  <version>1.0.2</version>
   <description>
     ROS messages for robots using Ackermann steering.
   </description>
