@@ -13,8 +13,8 @@
 # rate of change either left or right. The controller tries not to
 # exceed this limit in either direction, but sometimes it might.
 #
-float32 steering_angle          # desired virtual angle (radians)
-float32 steering_angle_velocity # desired rate of change (radians/s)
+float64 steering_angle          # desired virtual angle (radians)
+float64 steering_angle_velocity # desired rate of change (radians/s)
 
 # Drive at requested speed, acceleration and jerk (the 1st, 2nd and
 # 3rd derivatives of position). All are measured at the vehicle's
@@ -33,6 +33,6 @@ float32 steering_angle_velocity # desired rate of change (radians/s)
 # jerk indicates a desired absolute rate of acceleration change in
 # either direction (increasing or decreasing).
 #
-float32 speed                   # desired forward speed (m/s)
-float32 acceleration            # desired acceleration (m/s^2)
-float32 jerk                    # desired jerk (m/s^3)
+float64 speed                   # desired forward speed (m/s)
+float64 acceleration            # desired acceleration (m/s^2)
+float64 jerk                    # desired jerk (m/s^3)
